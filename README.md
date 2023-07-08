@@ -1,4 +1,8 @@
-### NIPS Challenge code follow ups - `2023/7/8;JS` 
+### NIPS Challenge code guidelines
+
+*update - `2023/7/8 : JS` 
+
+---
 
 [Home-Robot introduction](https://aihabitat.org/challenge/2023_homerobot_ovmm/)  
 [Home-Robot installation guide](https://github.com/facebookresearch/home-robot)
