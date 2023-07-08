@@ -31,7 +31,7 @@
 
         *Demo code : projects/habitat_ovmm/eval_baselines_agent.py
 
-        # Env configs - 필요할 시, 위 info의 Configs file에서 수정 
+        # Env configs - 필요할 시, info의 Configs file에서 수정 
             config_utils.py  
             omegaconf.py      
     
