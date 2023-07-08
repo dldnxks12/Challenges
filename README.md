@@ -35,23 +35,24 @@
 
         *Demo code : projects/habitat_ovmm/eval_baselines_agent.py
 
-        # Env configs - 필요할 시, info의 Configs file에서 수정 
+        # Env configs - 필요할 시, 하단 Info의 Configs file에서 수정 
             config_utils.py  
             omegaconf.py      
     
         # 먼저 살펴볼 코드 파일 
         [1] ovmm_agent.py / filepath : src/home_robot/home_robot/agent/ovmm_agent/)
-            : Task 수행하는 Agent 관련
+            : 각 task에 대해 action, obs, info return 
         [2] evaluator.py  / filepath : projects/habitat_ovmm/) 
             : evaluator
         [3] ppo_agent.py  / filepath : src/home_robot/home_robot/agent/ovmm_agent/)
-            : Agent 
+            : train된 skill로 task 수행 
 
 
 ---
 
 - `TODO (임시)`
-        
+
+        # 각 코드 파일 내부에 #TODO 지시코드 존재 
 
         1. projects, src 등등 파일 내부에 같은 이름의 폴더, 파일들이 다수 존재 (엄청 헷갈림)
             -> 우선 demo 코드의 import file들 기준으로 파악하고 이해하는게 좋을 것 같음.
@@ -59,7 +60,7 @@
                   - evalution.py 
     
         2. ovmm_agent.py의 Agent들 관련해서 개발시킬 부분 찾아 수정/보완
-            -> observation / action 의 입출력 관련된 code file 살펴보며, # TODO 파트 수정/보완
+            -> observation / action 의 입출력 관련된 코드 파일 살펴보며 수정/보완
                   - ovmm_perception.py
                   - objectnav_agent.py
                   - ppo_agent.py
