@@ -14,7 +14,6 @@
 
 
         각 task에 대해 각각 train이 필요
-        - Expected tool : [SLAM / Segmentation / RL / Manipulator Control]  
 
         # Gase
         - Gaze at object           (obj 응시)
