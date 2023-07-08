@@ -58,7 +58,7 @@
             src/third_party/habitat-lab/habitat-baselines/habitat-baselines/agents 폴더 내부에
             -> simple_agent.py, slam_agent.py, mp_agent.py, ppo_agents.py ... 존재
             
-            src/home_robot/home_robot/agent 폴더 내부에서 agent들 다수 존재하는데, 
+          * src/home_robot/home_robot/agent 폴더 내부에서 agent들 다수 존재하는데, 
             demo 코드에서는 다루지 않았음.
             
 ---
@@ -82,7 +82,7 @@
             - arm_action
             - base_velocity
 
-            *discrete/continuous action setting --> src ~ /core/interfaces.py   
+            * discrete/continuous action setting --> src/third_party ~ /core/interfaces.py   
 
         # Configs :
             Habitat config          : ovmm_eval.yaml
