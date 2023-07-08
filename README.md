@@ -55,7 +55,7 @@
                   - evalution.py 
     
         2. ovmm_agent.py의 Agent들 관련해서 개발시킬 부분 찾아 수정/보완
-            -> observation 입출력 관련된 code file 살펴보며, # TODO 파트 수정/보완
+            -> observation / action 의 입출력 관련된 code file 살펴보며, # TODO 파트 수정/보완
                   - ovmm_perception.py
                   - objectnav_agent.py
                   - ppo_agent.py
